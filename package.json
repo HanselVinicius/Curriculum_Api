@@ -1,0 +1,16 @@
+{
+  "name": "cvapi",
+  "version": "1.0.0",
+  "description": "curriculum em forma de api ",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node .",
+    "test": "test"
+  },
+  "author": "vinicius hansel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
