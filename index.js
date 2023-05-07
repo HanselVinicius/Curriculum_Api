@@ -19,6 +19,5 @@ app.use("/",competencesRouter)
 app.use("/",resumeRouter);
 
 
-// TODO iniciar as rotas multaveis como competencias,expeciencia,formação academica etc
 
 

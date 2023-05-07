@@ -7,7 +7,6 @@ const router = express.Router();
 router.get("/resume",async(req,res)=>{
     try {
         const resumeResult = await resume.find();
-        console.log(resumeResult)
         res.status(200).send(resumeResult)
     } catch (err) {
         res.status(500).json({message:err.message});
