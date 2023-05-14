@@ -7,6 +7,8 @@ mongoose.connect(
     process.env.MONGO_CLIENT
 )
 
+console.log(process.env.MONGO_CLIENT)
+
 let db = mongoose.connection;
 
 export default db;
